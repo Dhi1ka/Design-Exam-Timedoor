@@ -1,0 +1,225 @@
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* TEXT HOME */
+
+.intro {
+  top: 0;
+  background: #e0ebe8;
+  min-height: 55vh;
+  padding-top: 45vh;
+}
+
+.intro p {
+  color: green;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* LIST SERVICES */
+
+.services {
+  top: 0;
+  background: ghostwhite;
+  min-height: 55vh;
+  padding-top: 45vh;
+}
+
+#list {
+  color: rgb(21, 156, 21);
+}
+
+/* HEADER */
+
+nav ul {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  background-color: #387bad;
+}
+
+nav ul li {
+  display: inline-block;
+  border-bottom:1px solid #bbb;
+  margin: 55px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: rgb(177, 177, 177);
+}*
+
+/* PIC PORTFOLIO */
+
+.work {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+
+.work .work-header {
+  margin-top: 50px;
+  color: #008080;
+  font-weight: normal;
+}
+
+.project {
+  text-decoration: none;
+  color: #008080;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid lightblue;
+  height: 220px;
+  width: 280px;
+  margin: 40px 100px;
+}
+
+.project-pic {
+  width: 100%;
+  height: 180px;
+  border-bottom: 2px solid lightblue;
+}
+
+.project-title {
+  font-weight: bold;
+}
+
+.show-all {
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin: 20px auto 90px;
+  background: #e0ebe8;
+  color: #008080;
+  font-weight: bold;
+  font-size: 1em;
+  border: 2px solid #90C695;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.show-all:hover {
+  background: #E4F1FE;
+  color: green;
+}
+
+/* CONTACT CALL */
+
+@media only screen and (max-width: 500px) {
+  nav ul {
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 20px;
+  }
+
+  .project {
+    margin: 40px 0;
+  }
+}
+.contact {
+  background: #f7f4c5;
+  padding-bottom: 160px;
+}
+
+.header {
+  padding: 160px 0 110px;
+}
+
+.contact-details {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 35px 45px 35px;
+  list-style-type: none;
+  border: 2px solid #90C695;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background: #e0ebe8;
+  color: #008080;
+  text-decoration: none;
+}
+
+.contact-details:hover {
+  background: #E4F1FE;
+  color: green;
+}
+
+/* FOOTER */
+
+footer {
+  padding: 20px;
+  background: #22313F;
+  color: white;
+  line-height: 40px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+    color: rgb(90, 90, 90);
+  }
+
+@media only screen and (max-width: 367px) {
+  .contact-details {
+    border: 2px solid #90C695;
+    border-radius: 0;
+    width: 90px;
+    height: 20px;
+    padding: 10px;
+    line-height: normal;
+  }
+}
